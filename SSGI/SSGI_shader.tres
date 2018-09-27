@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://SSGI/SSGI_shader.shader" type="Shader" id=1]
+
+[resource]
+
+render_priority = -1
+shader = ExtResource( 1 )
+shader_param/SAMPLES = 16
+shader_param/indirectamount = 0.7
+shader_param/noiseamount = 1.0
+shader_param/noise = true
+_sections_unfolded = [ "shader_param" ]
+
